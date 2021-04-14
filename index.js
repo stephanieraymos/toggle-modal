@@ -1,5 +1,6 @@
 import { useState } from "react";
-const toggleModal = (openModal, closeModal) => {
+
+export function toggleModal(openModal, closeModal) {
   const [isModalOpen, setIsModalOpen] = useState(false);
 
   export const openModal = () => {
@@ -9,12 +10,8 @@ const toggleModal = (openModal, closeModal) => {
     setIsModalOpen(false);
   };
 
-  if (isModalOpen) {
-    return openModal();
-  } else {
-    return closeModal();
-  }
-};
+  return openModal, closeModal;
+}
 
 //Used to import into projects
 module.exports.toggleModal = toggleModal;
