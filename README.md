@@ -14,7 +14,7 @@ npm install toggle-modal --save
 
 ```jsx
 
-import { toggleModal } from "toggleModal";
+import { toggleModal } from "toggle-modal";
 
 ```
 
