@@ -1,4 +1,4 @@
-# toggle-modal
+# What is it?
 
 > Open or close a modal
 
@@ -7,22 +7,15 @@
 ## Install
 
 ```bash
-npm install --save toggle-modal
+npm install toggle-modal --save
 ```
 
 ## Usage
 
 ```jsx
-import React, { Component } from 'react'
 
-import MyComponent from 'toggle-modal'
-import 'toggle-modal/dist/index.css'
+import { toggleModal } from "toggleModal";
 
-class Example extends Component {
-  render() {
-    return <MyComponent />
-  }
-}
 ```
 
 ## License
